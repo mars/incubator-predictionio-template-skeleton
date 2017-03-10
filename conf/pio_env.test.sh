@@ -26,3 +26,5 @@ export PIO_STORAGE_SOURCES_H2_TYPE=jdbc
 export PIO_STORAGE_SOURCES_H2_URL=jdbc:h2:tcp://localhost:9092/mem:test
 export PIO_STORAGE_SOURCES_H2_USERNAME=sa
 export PIO_STORAGE_SOURCES_H2_PASSWORD=
+
+export HADOOP_HOME=~/
