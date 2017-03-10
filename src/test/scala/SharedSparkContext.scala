@@ -1,9 +1,10 @@
 package org.template.vanilla
 
-import org.apache.spark.{SparkConf, SparkContext}
 import org.scalatest.{BeforeAndAfterAll, Suite}
 
-trait SharedSingletonContext extends BeforeAndAfterAll {
+import org.apache.spark.{SparkConf, SparkContext}
+
+trait SharedSparkContext extends BeforeAndAfterAll {
   this: Suite =>
 
   private var _sparkContext: Option[SparkContext] = None

@@ -4,6 +4,12 @@
 
 Please refer to http://predictionio.incubator.apache.org/templates/vanilla/quickstart/
 
+## Testing
+
+```bash
+source conf/pio_env_test.sh && sbt test
+```
+
 ## Versions
 
 ### v0.4.0

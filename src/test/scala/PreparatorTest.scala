@@ -6,7 +6,7 @@ import org.scalatest.Matchers
 import org.apache.predictionio.data.storage.Event
 
 class PreparatorTest
-  extends FlatSpec with SharedSingletonContext with Matchers {
+  extends FlatSpec with SharedSparkContext with Matchers {
 
   val dataSource = Seq(
     Event(event = "test", entityType = "example", entityId = "1"),

@@ -6,7 +6,7 @@ import org.scalatest.Matchers
 import org.apache.predictionio.data.storage.Event
 
 class AlgorithmTest
-  extends FlatSpec with SharedSingletonContext with Matchers {
+  extends FlatSpec with SharedSparkContext with Matchers {
 
   val params = AlgorithmParams(mult = 7)
   val algorithm = new Algorithm(params)
