@@ -23,6 +23,6 @@ export PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=H2
 
 # Embedded H2 database
 export PIO_STORAGE_SOURCES_H2_TYPE=jdbc
-export PIO_STORAGE_SOURCES_H2_URL=jdbc:h2:tcp://localhost:9092/mem:test
+export PIO_STORAGE_SOURCES_H2_URL="jdbc:h2:tcp://localhost:9092/mem:test;DB_CLOSE_DELAY=-1"
 export PIO_STORAGE_SOURCES_H2_USERNAME=sa
 export PIO_STORAGE_SOURCES_H2_PASSWORD=
